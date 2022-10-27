@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-success shadow rounded">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="logo_1.jpg" alt="Logo" width="60" height="54" class="d-inline-block align-text-middle">
