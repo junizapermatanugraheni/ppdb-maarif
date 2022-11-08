@@ -18,7 +18,7 @@ use App\Http\Controllers\LoginController;
 Route::get('/', function () {
     return view('home', [
         "title" => "Home"
-    ], [LoginController::class, 'index']);
+    ]);
 });
 
 Route::get('/instruction', function () {
@@ -38,3 +38,5 @@ Route::get('/announ', function () {
         "title" => "Pengumuman"
     ]);
 });
+
+Route::get('/login', [LoginController::class, 'index']);
