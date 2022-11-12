@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\FormIdentitasController;
 
 
 /*
@@ -40,3 +41,5 @@ Route::get('/announ', function () {
 });
 
 Route::get('/login', [LoginController::class, 'index']);
+
+Route::get('/identitas', [FormIdentitasController::class, 'inputIdentitas']);

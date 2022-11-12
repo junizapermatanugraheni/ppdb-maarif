@@ -28,7 +28,7 @@
                                 <a href="" class="btn btn-success mr-2">Login</a>
                             </div>
                             <div class="col-12 text-center">
-                                <div class="card-text">Belum Punya Akun ? <a href="#" class="text-daftar font-weight-bolder">Daftar Disini</a></div>
+                                <div class="card-text">Belum Punya Akun ? <a href="/identitas" class="text-daftar font-weight-bolder">Daftar Disini</a></div>
                             </div>
                         </form>
                     </div>
